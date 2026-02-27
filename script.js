@@ -134,8 +134,33 @@ var a=300,b=10,c=90,linebreak="<br>"
 //     return x*y;
 // }
 // document.write("RESULT OF mul IS:"+res)
-var add2=(a,b) =>{
-    console.log(a+b);
-}
+// var add2=(a,b) =>{
+//     console.log(a+b);
+// }
 
-add2(102,20)
+// add2(102,20)
+
+// var person={
+//     name: "vishal",
+//     age:30,
+//     isMarried:true,
+//     address:{
+//         street:'vijay nagar',
+//         flatNo:201
+//     }
+// }
+// console.log(person.address)
+
+// for(let x in person){
+//     console.log(x + " is " + person[x] )
+// }
+var person2=new Object()
+
+person2.name="JIJJI"
+person2.age=55
+person2.isMarried=true
+person2.address={}
+person2.address.flatNO=441
+person2.address.street="VIJAY"
+
+console.log(person2.name,person2.age,person2.isMarried,person2.address.street,person2.address.flatNO)
