@@ -1,11 +1,3 @@
-// var count
-// document.write("Starting loop")
-// document.write("<br/>")
-// for(count=0;count<10;count++){
-//     document.write(count)
-//     document.write("</br>")
-// }
-// document.write("LOOP STOPED")
 // var b=5
 // console.log(b)
 // console.log(typeof(b))
@@ -70,12 +62,3 @@ var a=300,b=10,c=90,linebreak="<br>"
 // var result=a<=b
 // document.write(linebreak)
 // document.write(result)
-
-const person={
-    name:"AJAY",
-    lname:"KK",
-    age:15
-}
-for(let x in person){
-    console.log("PERSON DETAIL:" + x + " "+ person[x])
-}
