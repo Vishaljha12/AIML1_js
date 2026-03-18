@@ -11,7 +11,6 @@ function createBoard() {
     }
   }
 }
-
 function makeMove(index) {
   if (board[index] || checkWin()) return;
   board[index] = currentPlayer;
