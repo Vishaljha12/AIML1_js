@@ -1,4 +1,3 @@
-
 function change(){
 document.open();
 document.write("<h1>Document is changed</h1>");
