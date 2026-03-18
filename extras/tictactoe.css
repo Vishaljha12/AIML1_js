@@ -1,0 +1,21 @@
+
+    table {
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    td {
+      width: 80px;
+      height: 80px;
+      border: 2px solid black;
+      text-align: center;
+      font-size: 48px;
+      font-family: sans-serif;
+      cursor: pointer;
+    }
+
+    #result {
+      font-size: 24px;
+      font-family: sans-serif;
+      font-weight: bold;
+    }
