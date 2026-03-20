@@ -53,7 +53,14 @@
 //  }catch(error){
 //     console.error(error.message);
 // }
-localStorage.setItem("name","jeet");
-var name=localStorage.getItem("name");
-console.log(name);
+// localStorage.setItem("name","jeet");
+// var name=localStorage.getItem("name");
+// console.log(name);
 // localStorage.removeItem("name");
+
+var user={
+    name:"Vishal",
+    age:50};
+localStorage.setItem("user",JSON.stringify(user));
+var user1=JSON.parse(localStorage.getItem("user"));
+console.log(user1.name);
