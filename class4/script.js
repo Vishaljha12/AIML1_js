@@ -48,8 +48,12 @@
 // }
 
 //error handling is the process of handling errors that occur during the execution of a program. It is used to prevent the program from crashing and to provide a better user experience. In JavaScript, we can use try/catch blocks to handle errors.
-try {    let x=y+10;;
+// try {    let x=y+10;;
 
- }catch(error){
-    console.error(error.message);
-}
+//  }catch(error){
+//     console.error(error.message);
+// }
+localStorage.setItem("name","jeet");
+var name=localStorage.getItem("name");
+console.log(name);
+// localStorage.removeItem("name");
